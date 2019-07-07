@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>BOUTIQUE</title>
+        <link rel="stylesheet" href="css/find.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="headerpart">
+                <div id="header">
+                    <div id="loginlist">
+                        <ul>
+                            <li><a href="login.html">로그인</a></li>
+                            <li><a href="apply.html">회원가입</a></li>
+                            <li><a href="faq.php">고객센터</a></li>
+                        </ul>
+                    </div>
+                    <p id="logo"><a href="index.html">BOUTIQUE</a></p>
+                    <div id="menulist">
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="castle boutique.html">CASTLE BOUTIQUE</a></li>
+                            <li><a href="bohemian bistro boutique.html">Bohemian Bistro BOUTIQUE</a></li>
+                            <li><a href="pub & grill boutique.html">PUB & GRILL BOUTIQUE</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="midpart">
+                <div id="midcontent">
+                    <div id="sidemenu">
+                        <ul>
+                            <li id="applyfont">회원가입</li>
+                            <li><a href="login.html">로그인</a></li>
+                            <li><a href="apply.html">회원가입</a></li>
+                            <li id="actpart"><a href="find.html">아이디/비밀번호 찾기</a></li>
+                        </ul>
+                    </div>
+                    <div id="mainmenu">
+                        <div id="midheader">
+                            <h3><img src="img/loginimg1.PNG"> 아이디/비밀번호 찾기</h3>
+                        </div>
+                        <div id="midcenter">
+                            <img src="img/loginimg2.PNG">
+                            <div id="desccenter">
+                                <p>
+                                    <span id="title">부티끄 홈페이지에 오신 것을 환영합니다.</span><br>
+                                    부티끄 홈페이지의 회원으로 가입하시면<br>메일링/쿠폰 서비스 등 많은 혜택을 받으실 수 있습니다.<br><br><br>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="midform">
+                            <div id="idform">
+                                <form action="findid.php" method="post" name="id" class="formtable">
+                                    <table>
+                                        <tr>
+                                            <th colspan="3" align="left">
+                                                <span style="font-size: 18px;color:rgb(187, 35, 35)">아이디찾기</span><br>
+                                                회원가입 시, 등록하신 이메일 주소를 입력하세요.
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size:12px">이메일 주소</td>
+                                            <td colspan="2"><input name="mails1" type="text" autocomplete="off"></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" align="right"><input id="getid" class="logbtn1" type="submit" value="확인"></td>
+                                        </tr>
+                                        <tr>
+                                            <td id="getid1"></td>
+                                        </tr>
+                                    </table>
+                                </form>
+                            </div>
+                            <div id="pwform">
+                                <form action="findpw.php" method="post" name="pw" class="formtable">
+                                    <table>
+                                        <tr>
+                                            <th colspan="3" align="left">
+                                                <span style="font-size: 18px;color:rgb(187, 35, 35)">비밀번호찾기</span><br>
+                                                아이디와 이메일 주소를 입력하세요.
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size:12px">아이디</td>
+                                            <td colspan="2"><input name="ids" type="text" autocomplete="off"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-size:12px">이메일 주소</td>
+                                            <td colspan="2"><input name="mails2" type="text" autocomplete="off"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" align="right"><input id="getpw" class="logbtn1" type="submit" value="확인"></td>
+                                        </tr>
+                                        <tr>
+                                            <td id="getid2"></td>
+                                            <td id="getpw2"></td>
+                                        </tr>
+                                    </table>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footerpart">
+                <p>
+                    서울특별시 도봉구 도봉1동 615-11 | 사업자 등록번호 123-45-67891<br>
+                    Copyright ⓒ 부티끄 Research Institute. ALL RIGHTS RESERVED
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
